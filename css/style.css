@@ -345,6 +345,7 @@ button{
 
 
 
+
 .footer{
     padding-top: 40px;
     padding-bottom: 35px;
@@ -564,6 +565,22 @@ button{
     /* .button {
         padding: 10px 26px
     } */
+    .courses__title {
+        padding: 6px;
+        left: -1px;
+        top: 42%;
+       
+    }
+    .courses__time {
+        padding: 3px 8px;
+        left: -1px;
+        top: 56%;
+    }
+    .courses__price {
+        padding: 12px 4px;
+        right: -4px;
+        bottom: 4px;
+    }
 }
 
 @media (max-width: 640px){
@@ -703,6 +720,9 @@ button{
     .steps__item-img{
         width: 66px;
     } 
+    .courses__content {
+        grid-template-columns: auto;
+    }
 }
 
 
@@ -777,4 +797,8 @@ button{
     .steps__item-text{
         font-size: 6px;
     } 
+    .courses__item,
+    .courses__item img{
+        width: 255px;
+    }
  }
