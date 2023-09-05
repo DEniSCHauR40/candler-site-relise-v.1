@@ -21,5 +21,13 @@ const swiperOne = new Swiper('.feedback__slider', {
     pagination: {
       el: '.swiper-pagination',
     },
+    breakpoints: {
+        480: {
+          slidesPerView: 2,
+        },
+        360: {
+            slidesPerView: 1, 
+        }
+      },
   });
 
